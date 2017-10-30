@@ -1,0 +1,47 @@
+body{
+    background: grey;
+}
+h1 {
+    display: flex;
+    align-content: center;
+}
+.ml15 {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: #FFFAFF;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+  .main-app{
+      display: flex;
+      justify-content: center;
+  }
+
+  .get-weather-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+  }
+
+  .city-weather {
+     display: flex;
+     justify-content: center;
+     color: white;
+     font-weight: bold;
+     font-size: 3 em;
+  }
+
+figure {
+    display: flex;
+    justify-content: center;
+}
